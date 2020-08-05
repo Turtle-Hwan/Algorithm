@@ -16,25 +16,21 @@ num = list(map(int, input().split()))
 A.sort()
 
 for i in range(M):
-    if(num[i] < A[0] or num[i] > A[N-1]):
-        print(0)
-    else:
-        end = N-1
-        start = 0
+    end = N-1
+    start = 0
         
-        while(True):
-            m = (start+end)//2
-            if(start == end and num[i] != A[m]):
-                print(0)
-                break
-            elif(num[i] == A[m]):
-                print(1)
-                break
-            elif(num[i] > A[m]):
-                start = m+1
-            elif(num[i] < A[m]):
-                end = m-1
-
+    while(start <= end):
+        m = (start+end)//2
+        if(num[i] == A[m]):
+            print(1)
+            break
+        elif(num[i] > A[m]):
+            start = m+1
+        elif(num[i] < A[m]):
+            end = m-1
+            
+    if(num[i] != A[m]):
+        print(0)
 
 
 
