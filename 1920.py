@@ -33,10 +33,9 @@ for i in range(M):
         print(0)
 
 
-
-'''
 #set() 자료형 이용 (x in set() --> O(1))
 
+'''
 import sys
 input = sys.stdin.readline
 
