@@ -1,7 +1,6 @@
 # BOJ
-To study Baekjoon Online Judge
-
-
+To study Baekjoon Online Judge   
+python / c++    
 
 (?) : 의문점
 (+) : 공부 후 다시 풀어보기
