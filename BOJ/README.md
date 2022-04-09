@@ -8,3 +8,11 @@ python / c++
 
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=fantastyturtle)](https://solved.ac/fantastyturtle/)
+
+
+
+### commit convention
+[add] : 파일 추가
+[mod] : 파일 변경 (readme 추가 작성 등)
+
+[solved] : 문제 풀이
